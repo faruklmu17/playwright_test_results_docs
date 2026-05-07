@@ -476,10 +476,7 @@
             <p>
                 As a developer or QA engineer, how much time do you lose switching between your IDE and your CI/CD
                 dashboard?
-                The <strong>Playwright Browser Extension</strong> is a lightweight Chrome extension designed to
-                eliminate that friction.
-                Instead of digging through 100MB logs, you get an instant visual summary of your test status directly in
-                your browser toolbar. <strong>New in v1.8:</strong> Added explicit support and documentation for monitoring Private & Organization GitHub Repositories via GitHub Pages, alongside Failed test names displayed right in the popup, and automatic Dark/Light mode.
+                The <strong>Playwright Browser Extension</strong> is a lightweight Chrome extension that helps you quickly see your Playwright test status directly from your browser toolbar. Version 1.8 introduces failed test details directly in the popup and dark/light mode support, alongside AWS S3 and GitHub Pages integration, giving you complete flexibility in where you store your test results.
             </p>
 
             <div class="feature-grid">
@@ -680,9 +677,13 @@ jobs:
                 secure but means it cannot directly access private repository files.
             </p>
             <div class="callout success">
-                <strong>The Solution:</strong> Use <strong>GitHub Pages</strong> to host your summary file. GitHub Pages
-                can be enabled even on private repositories, allowing you to serve the 1KB summary file publicly while
-                keeping your source code and test results private.
+                <strong>The Solution:</strong> Use <strong>GitHub</strong>
+                <br>
+                • 🔄 Flexible Deployment: Host your Playwright test summary JSON file anywhere. Fully supports GitHub Pages, AWS S3, and public JSON endpoints. 
+                <br>
+                • 🏢 Private & Org Repos (NEW): Securely monitor private GitHub repositories by leveraging GitHub Pages to serve your summary file while keeping your source code 100% private.
+                <br>
+                • 🔒 Privacy-First: No accounts, no analytics tracking, no external servers. Data stays in your browser.
             </div>
 
             <h3>Step-by-Step Configuration</h3>

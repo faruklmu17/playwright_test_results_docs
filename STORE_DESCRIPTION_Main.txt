@@ -14,7 +14,7 @@ Whether you're running end-to-end (E2E) tests in a CI/CD pipeline, monitoring Gi
 • 🚨 Failed Test Names (NEW): See exactly which tests failed directly inside the popup—no need to dig through logs!
 • 🔄 Auto-Refresh: Automatically polls your test summary every 60 seconds to keep your data in sync with your CI/CD pipeline.
 • 🌗 Dark/Light Mode: Automatically adapts to your system's theme for optimal visibility.
-• ☁️ Flexible Deployment: Host your Playwright test summary JSON file anywhere. Fully supports GitHub Pages, AWS S3, and public JSON endpoints. 
+• 🔄 Flexible Deployment: Host your Playwright test summary JSON file anywhere. Fully supports GitHub Pages, AWS S3, and public JSON endpoints. 
 • 🏢 Private & Org Repos (NEW): Securely monitor private GitHub repositories by leveraging GitHub Pages to serve your summary file while keeping your source code 100% private.
 • 🔒 Privacy-First: No accounts, no analytics tracking, no external servers. Data stays in your browser.
 
@@ -31,9 +31,9 @@ That's it! The extension will automatically start monitoring your E2E testing st
 📖 FULL DOCUMENTATION & EXAMPLES
 
 For step-by-step setup instructions, including the Playwright reporter code, GitHub Actions workflow configuration, and AWS S3 deployment steps, visit:
-https://faruk-hasan.com/blog_post/playwright_browser_extension_test_result.html
+https://faruklmu17.github.io/playwright_test_results_docs/browser_extension_support.html
 
 Test it out with our working example repository:
 https://github.com/faruklmu17/browser_extension_test
 
-Simplify your QA automation workflow and never miss a failing test again with the Playwright Test Results Badge!
+Simplify your QA automation workflow and never miss a failing test again with the Playwright Browser Extension!
