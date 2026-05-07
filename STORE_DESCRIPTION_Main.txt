@@ -11,6 +11,7 @@ Whether you're running end-to-end (E2E) tests in a CI/CD pipeline, monitoring Gi
   - 🟥 Red Badge (e.g., 41/1) → One or more tests failed.
   - ⬜ Gray Badge (?) → No results detected or pipeline crashed.
 • 📊 Detailed Popup Dashboard: Click the extension icon to view a quick summary of total, passed, failed, and flaky tests. 
+• 🖥️ HTML Dashboard (NEW): Automatically generates a beautiful, shareable HTML summary page via GitHub Pages for your team to view.
 • 🚨 Failed Test Names (NEW): See exactly which tests failed directly inside the popup—no need to dig through logs!
 • 🔄 Auto-Refresh: Automatically polls your test summary every 60 seconds to keep your data in sync with your CI/CD pipeline.
 • 🌗 Dark/Light Mode: Automatically adapts to your system's theme for optimal visibility.
