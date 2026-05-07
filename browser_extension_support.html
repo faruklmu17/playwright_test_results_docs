@@ -689,10 +689,12 @@ jobs:
             <h3>Step-by-Step Configuration</h3>
             <div class="setup-steps">
                 <div class="setup-step">
-                    <h4>1. Enable GitHub Pages</h4>
                     <p>Go to your Repository <strong>Settings > Pages</strong>. Set the source to <strong>"Deploy from a
                             branch"</strong> and select <strong>"main"</strong> as shown below.</p>
-                    <img src="./blog_images/github_pages_settings.png" alt="GitHub Pages Settings" class="blog-image">
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
+                        <img src="./blog_images/github_pages_settings.png" alt="GitHub Pages Settings" class="blog-image" style="max-width: 48%;">
+                        <img src="./blog_images/github_pages_deployment.png" alt="GitHub Pages Deployment" class="blog-image" style="max-width: 48%;">
+                    </div>
                 </div>
                 <div class="setup-step">
                     <h4>2. Use the Complete Workflow</h4>
@@ -887,9 +889,9 @@ jobs:
                     </p>
                 </div>
 
-                <div class="setup-step">
-                    <h4>4. Connect & Verify</h4>
-                    <p>Once the workflow finishes, your site will be live.</p>
+                    <p>Once the workflow finishes, your site will be live. You will see an automated dashboard like this:
+                    </p>
+                    <img src="./blog_images/test_summary_dashboard.png" alt="Playwright Test Summary Dashboard" class="blog-image" style="margin-bottom: 20px;">
                     <div class="callout warning">
                         <strong>Important:</strong> Provide the <strong>JSON</strong> URL to the extension, not the HTML dashboard URL.
                         <br>
