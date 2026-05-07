@@ -889,9 +889,15 @@ jobs:
 
                 <div class="setup-step">
                     <h4>4. Connect & Verify</h4>
-                    <p>Once the workflow finishes, your site will be live. Paste your Pages URL (e.g.,
-                        <code>https://username.github.io/repo/results.json</code>) into the extension settings.
-                    </p>
+                    <p>Once the workflow finishes, your site will be live.</p>
+                    <div class="callout warning">
+                        <strong>Important:</strong> Provide the <strong>JSON</strong> URL to the extension, not the HTML dashboard URL.
+                        <br>
+                        • ❌ Incorrect: <code>https://username.github.io/repo/</code>
+                        <br>
+                        • ✅ Correct: <code>https://username.github.io/repo/results.json</code>
+                    </div>
+                    <p>Paste the <code>results.json</code> URL into the extension settings and click Save.</p>
                 </div>
             </div>
         </section>
